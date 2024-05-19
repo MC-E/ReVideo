@@ -12,7 +12,7 @@
 ## Introduction
 ReVideo aims to solve the problem of local video editing. The editing target includes visual content and motion trajectory modifications.
 <p align="center">
-  <img src="asserts/teaser.png" height=220>
+  <img src="asserts/teaser.png">
 </p>
 
 ## 📰 **New Features/Updates**
