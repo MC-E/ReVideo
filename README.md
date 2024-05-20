@@ -54,7 +54,7 @@ ReVideo aims to solve the problem of local video editing. The editing target inc
 </tr>
 <tr>
   <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/490b4e9b-c1af-4f87-83de-c6b27f4a925b" autoplay></td>
-  <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/d48aeb8a-58d4-4870-9d68-6670034e074b" autoplay></td>
+  <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/41c3ccd4-6832-4fca-ab5e-98d1e4568ab3" autoplay></td>
 </tr>
 </table>
 
