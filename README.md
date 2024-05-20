@@ -21,6 +21,19 @@ ReVideo aims to solve the problem of local video editing. The editing target inc
 ## ✏️ Todo
 - [ ] Code will be open sourced in June
 
+https://github.com/MC-E/DragonDiffusion/assets/54032224/222f35da-7396-4989-a3c3-9ab4a2e5fa98
+
+## 🔥🔥🔥 Main Features
+### Change content & Customize motion trajectoy
+<p float="left">
+  <a href="https://github.com/MC-E/DragonDiffusion/assets/54032224/222f35da-7396-4989-a3c3-9ab4a2e5fa98" target="_blank">
+    <img src="" alt="Original Video" width="45%" />
+  </a>
+  <a href="https://github.com/MC-E/DragonDiffusion/assets/54032224/222f35da-7396-4989-a3c3-9ab4a2e5fa98" target="_blank">
+    <img src="视频预览图片链接2" alt="Editing Results" width="45%" />
+  </a>
+</p>
+
 ## Related Works
 <p>
 [1] <a href="https://pika.art/">https://pika.art/</a>
