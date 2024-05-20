@@ -25,14 +25,18 @@ https://github.com/MC-E/DragonDiffusion/assets/54032224/222f35da-7396-4989-a3c3-
 
 ## 🔥🔥🔥 Main Features
 ### Change content & Customize motion trajectoy
-<p float="left">
-  <a href="https://github.com/MC-E/DragonDiffusion/assets/54032224/222f35da-7396-4989-a3c3-9ab4a2e5fa98" target="_blank">
-    <img src="" alt="Original Video" width="45%" />
-  </a>
-  <a href="https://github.com/MC-E/DragonDiffusion/assets/54032224/222f35da-7396-4989-a3c3-9ab4a2e5fa98" target="_blank">
-    <img src="视频预览图片链接2" alt="Editing Results" width="45%" />
-  </a>
-</p>
+
+<figure>
+    <video poster="" id="chair-tp" autoplay controls muted loop playsinline width="45%">
+    <source src="https://github.com/MC-E/DragonDiffusion/assets/54032224/222f35da-7396-4989-a3c3-9ab4a2e5fa98"
+            type="video/mp4">
+    </video>
+    <video poster="" id="chair-tp" autoplay controls muted loop playsinline width="45%">
+    <source src="https://github.com/MC-E/DragonDiffusion/assets/54032224/222f35da-7396-4989-a3c3-9ab4a2e5fa98"
+            type="video/mp4">
+    </video>
+    <figcaption>Original video (Left) & Editing results (Right)</figcaption>
+</figure>
 
 ## Related Works
 <p>
