@@ -12,7 +12,7 @@
 ## Introduction
 ReVideo aims to solve the problem of local video editing. The editing target includes visual content and motion trajectory modifications.
 <p align="center">
-  <img src="asserts/teaser.png">
+  <img src="asserts/teaser.jpg">
 </p>
 
 ## 📰 **New Features/Updates**
@@ -23,16 +23,50 @@ ReVideo aims to solve the problem of local video editing. The editing target inc
 
 ## 🔥🔥🔥 Main Features
 ### Change content & Customize motion trajectoy
-<!-- <iframe width="45%" src="asserts/desert" allowfullscreen></iframe>
-<iframe width="45%" src="https://github.com/MC-E/DragonDiffusion/assets/54032224/222f35da-7396-4989-a3c3-9ab4a2e5fa98" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
 <table class="center">
 <tr>
   <td style="text-align:center;"><b>Input Video</b></td>
-  <td style="text-align:center;"><b>Output Video</b></td>
+  <td style="text-align:center;"><b>Editing Result</b></td>
 </tr>
 <tr>
-  <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/222f35da-7396-4989-a3c3-9ab4a2e5fa98" autoplay muted></td>
-  <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/222f35da-7396-4989-a3c3-9ab4a2e5fa98" autoplay muted></td>
+  <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/222f35da-7396-4989-a3c3-9ab4a2e5fa98" autoplay></td>
+  <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/c128f1d7-30e4-49e7-b6b7-9d5f428ff882" autoplay></td>
+</tr>
+</table>
+
+### Change content & Keep motion trajectoy
+<table class="center">
+<tr>
+  <td style="text-align:center;"><b>Input Video</b></td>
+  <td style="text-align:center;"><b>Editing Result</b></td>
+</tr>
+<tr>
+  <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/d25dce6a-88cf-45ad-9177-76df9fffe819" autoplay></td>
+  <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/06c8f19d-4569-417f-a4a3-1782a09404db" autoplay></td>
+</tr>
+</table>
+
+### Keep content & Customize motion trajectoy
+<table class="center">
+<tr>
+  <td style="text-align:center;"><b>Input Video</b></td>
+  <td style="text-align:center;"><b>Editing Result</b></td>
+</tr>
+<tr>
+  <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/490b4e9b-c1af-4f87-83de-c6b27f4a925b" autoplay></td>
+  <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/d48aeb8a-58d4-4870-9d68-6670034e074b" autoplay></td>
+</tr>
+</table>
+
+### Multi-area Editing
+<table class="center">
+<tr>
+  <td style="text-align:center;"><b>Input Video</b></td>
+  <td style="text-align:center;"><b>Editing Result</b></td>
+</tr>
+<tr>
+  <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/339263b6-ea97-4c43-8617-b40459b1973c" autoplay></td>
+  <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/7a005b3a-ff3e-492c-9643-0fd921b0b53e" autoplay></td>
 </tr>
 </table>
 
