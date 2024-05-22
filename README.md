@@ -16,10 +16,10 @@ ReVideo aims to solve the problem of local video editing. The editing target inc
 </p>
 
 ## 📰 **New Features/Updates**
-- [2024/05/20] Paper of **ReVideo** is available [here]().
+- [2024/05/23] Paper and project page of **ReVideo** is available.
 
 ## ✏️ Todo
-- [ ] Code will be open sourced in June
+- [ ] Code will be open-sourced in June
 
 ## 🔥🔥🔥 Main Features
 ### Change content & Customize motion trajectoy
@@ -86,4 +86,4 @@ ReVideo aims to solve the problem of local video editing. The editing target inc
 </p>
 
 # 🤗 Acknowledgements
-We appreciate the relasing code of [Stable Video Diffusion](https://github.com/Stability-AI/generative-models).
+We appreciate the releasing code of [Stable Video Diffusion](https://github.com/Stability-AI/generative-models).
