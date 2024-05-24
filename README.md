@@ -7,6 +7,7 @@
 [Jian Zhang](https://jianzhang.tech/)
 
 [![Project page](https://img.shields.io/badge/Project-Page-brightgreen)](https://mc-e.github.io/project/ReVideo/)
+[![arXiv](https://img.shields.io/badge/ArXiv-2405.13865-brightgreen)](https://arxiv.org/abs/2405.13865)
 
 ---
 ## Introduction
