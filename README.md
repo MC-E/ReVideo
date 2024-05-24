@@ -17,7 +17,7 @@ ReVideo aims to solve the problem of local video editing. The editing target inc
 </p>
 
 ## 📰 **New Features/Updates**
-- [2024/05/23] Paper and project page of **ReVideo** is available.
+- [2024/05/23] Paper and project page of **ReVideo** are available.
 
 ## ✏️ Todo
 - [ ] Code will be open-sourced in June
