@@ -17,6 +17,7 @@ ReVideo aims to solve the problem of local video editing. The editing target inc
 </p>
 
 ## 📰 **New Features/Updates**
+- [2024/06/26] We release the code of ReVideo.
 - [2024/05/26] **Long video editing plan**: We are collaborating with [Open-Sora Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan) team to replace SVD with Sora framework, making ReVideo suitable for long video editing. Here are some preliminary results. This initial combination is still limited in quality for long videos. In the future, we will continue to cooperate and launch high-quality long video editing models.
 <table class="center">
 <tr>
@@ -31,7 +32,7 @@ ReVideo aims to solve the problem of local video editing. The editing target inc
 - [2024/05/23] Paper and project page of **ReVideo** are available.
 
 ## ✏️ Todo
-- [ ] Code will be open-sourced in June
+- [x] Code will be open-sourced in June
 
 ## 🔥🔥🔥 Main Features
 ### Change content & Customize motion trajectoy
@@ -81,6 +82,27 @@ ReVideo aims to solve the problem of local video editing. The editing target inc
   <td><video src="https://github.com/MC-E/DragonDiffusion/assets/54032224/7a005b3a-ff3e-492c-9643-0fd921b0b53e" autoplay></td>
 </tr>
 </table>
+
+## 🔧 Dependencies and Installation
+
+- Python >= 3.8 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
+- [PyTorch >= 2.0.1](https://pytorch.org/)
+```bash
+pip install -r requirements.txt
+```
+
+## ⏬ Download Models 
+All models will be automatically downloaded. You can also choose to download manually from this [url](https://huggingface.co/Adapter/ReVideo).
+
+<span style="color: red;">Since our ReVideo is trained based on [Stable Video Diffusion](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid), the usage guidelines for the model should follow the Stable Video Diffusion's [nc-COMMUNITY LICENSE](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid/blob/main/LICENSE)!</span>
+
+## 💻 How to Test
+You can download the testset from  [https://huggingface.co/Adapter/ReVideo](https://huggingface.co/Adapter/ReVideo).
+Inference requires at least `20GB` of GPU memory for editing a `768x1344` video.  
+
+```bash
+bash configs/examples/constant_motion/head6.sh
+```
 
 ## Related Works
 <p>
