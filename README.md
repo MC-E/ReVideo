@@ -94,7 +94,7 @@ pip install -r requirements.txt
 ## ⏬ Download Models 
 All models will be automatically downloaded. You can also choose to download manually from this [url](https://huggingface.co/Adapter/ReVideo).
 
-<span style="color: red;">Since our ReVideo is trained based on [Stable Video Diffusion](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid), the usage guidelines for the model should follow the Stable Video Diffusion's [nc-COMMUNITY LICENSE](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid/blob/main/LICENSE)!</span>
+**Since our ReVideo is trained based on [Stable Video Diffusion](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid), the usage guidelines for the model should follow the Stable Video Diffusion's [nc-COMMUNITY LICENSE](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid/blob/main/LICENSE)!**
 
 ## 💻 How to Test
 You can download the testset from  [https://huggingface.co/Adapter/ReVideo](https://huggingface.co/Adapter/ReVideo).
