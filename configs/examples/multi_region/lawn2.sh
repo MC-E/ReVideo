@@ -1,8 +1,3 @@
-export XDG_CACHE=/apdcephfs/share_1290939/richardxia/PretrainedCache
-export TORCH_HOME=/apdcephfs/share_1290939/richardxia/PretrainedCache
-export HF_HOME=/apdcephfs/share_1290939/richardxia/PretrainedCache
-export TOKENIZERS_PARALLELISM=false
-
 name="svd-example2[fps6_mb127-temp]"
 config="configs/inference/config_test.yaml"
 ckpt="ckpt/model.ckpt"
