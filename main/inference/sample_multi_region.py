@@ -52,8 +52,8 @@ def sample(
     pe_w = None, 
     ps_h = None, 
     pe_h = None,
-    x_bais_all = None,
-    y_bais_all = None,
+    x_bias_all = None,
+    y_bias_all = None,
 ):
     """
     Simple script to generate a single sample conditioned on an image `input_path` or multiple images, one for each
@@ -121,7 +121,7 @@ def sample(
     map = torch.zeros((1,2,num_frames-1,img_ref.shape[-2],img_ref.shape[-1])).to(device)
     region = torch.zeros_like(images)[:,:1]
     tracks = []
-    assert len(x_bais_all)==len(y_bais_all) and len(x_bais_all)==len(s_w), 'Wrong bias!'
+    assert len(x_bias_all)==len(y_bias_all) and len(x_bias_all)==len(s_w), 'Wrong bias!'
     for k in range(len(s_w)):
         s_w[k] = int(s_w[k]*scale_w)
         e_w[k] = int(e_w[k]*scale_w)
@@ -137,17 +137,17 @@ def sample(
         y_dist = p_end[1]-p_start[1]
         inter_x = x_dist/(num_frames-2)
         inter_y = y_dist/(num_frames-2)
-        x_bais = x_bais_all[k]
-        y_bais = y_bais_all[k]
+        x_bias = x_bias_all[k]
+        y_bias = y_bias_all[k]
         for i in range(num_frames-1):
-            x_cur = int(p_start[0]+i*inter_x + x_bais[i%len(x_bais)])
-            y_cur = int(p_start[1]+i*inter_y + y_bais[i%len(y_bais)])
+            x_cur = int(p_start[0]+i*inter_x + x_bias[i%len(x_bias)])
+            y_cur = int(p_start[1]+i*inter_y + y_bias[i%len(y_bias)])
             if i == 0:
                 x_per = p_start[0]
                 y_per = p_start[1]
             else:
-                x_per = int(p_start[0]+(i-1)*inter_x + x_bais[(i-1)%len(x_bais)])
-                y_per = int(p_start[1]+(i-1)*inter_y+ y_bais[(i-1)%len(y_bais)])
+                x_per = int(p_start[0]+(i-1)*inter_x + x_bias[(i-1)%len(x_bias)])
+                y_per = int(p_start[1]+(i-1)*inter_y+ y_bias[(i-1)%len(y_bias)])
             map[:,1,i,y_cur,x_cur] = x_cur - x_per
             map[:,0,i,y_cur,x_cur] = y_cur - y_per
 
@@ -157,8 +157,8 @@ def sample(
                 x_cur = p_start[0]
                 y_cur = p_start[1]
             else:
-                x_cur = int(p_start[0]+i*inter_x + x_bais[i%len(x_bais)])
-                y_cur = int(p_start[1]+i*inter_y + y_bais[i%len(y_bais)])
+                x_cur = int(p_start[0]+i*inter_x + x_bias[i%len(x_bias)])
+                y_cur = int(p_start[1]+i*inter_y + y_bias[i%len(y_bias)])
             track[0,i,0,0]=x_cur
             track[0,i,0,1]=y_cur
         tracks.append(track)
@@ -312,8 +312,8 @@ def get_parser():
     parser.add_argument("--pe_w", metavar="N", type=int, nargs="+", default=None)
     parser.add_argument("--ps_h", metavar="N", type=int, nargs="+", default=None)
     parser.add_argument("--pe_h", metavar="N", type=int, nargs="+", default=None)
-    parser.add_argument("--x_bais_all", nargs="+", action="append", type=int, help="Horizontal swing")
-    parser.add_argument("--y_bais_all", nargs="+", action="append", type=int, help="Vertical swing")
+    parser.add_argument("--x_bias_all", nargs="+", action="append", type=int, help="Horizontal swing")
+    parser.add_argument("--y_bias_all", nargs="+", action="append", type=int, help="Vertical swing")
     return parser
 
 
@@ -327,4 +327,4 @@ if __name__ == "__main__":
         fps_id=args.fps, motion_bucket_id=args.motion, cond_aug=args.cond_aug, seed=args.seed, \
         decoding_t=args.decoding_t, output_folder=args.savedir, save_fps=args.savefps, resize=args.resize, \
         s_w=args.s_w, e_w=args.e_w, s_h=args.s_h, e_h=args.e_h, ps_w=args.ps_w, pe_w=args.pe_w, ps_h=args.ps_h, \
-        pe_h=args.pe_h, x_bais_all=args.x_bais_all, y_bais_all=args.y_bais_all)
+        pe_h=args.pe_h, x_bias_all=args.x_bias_all, y_bias_all=args.y_bias_all)

@@ -33,5 +33,5 @@ python3 main/inference/sample_single_region.py \
 --pe_h 1935 \
 --ps_w 1585 \
 --pe_w 1554 \
---x_bais 0 \
---y_bais 0
+--x_bias 0 \
+--y_bias 0

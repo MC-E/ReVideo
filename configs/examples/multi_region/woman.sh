@@ -33,15 +33,15 @@ python3 main/inference/sample_multi_region.py \
 --pe_h 681 1900 2331 318 552 2261 \
 --ps_w 397 396 589 284 646 292 \
 --pe_w 523 433 495 381 697 353 \
---x_bais_all 0 \
---x_bais_all 0 \
---x_bais_all 0 \
---x_bais_all 0 \
---x_bais_all 0 \
---x_bais_all 0 \
---y_bais_all 0 \
---y_bais_all 0 \
---y_bais_all 0 \
---y_bais_all 0 \
---y_bais_all 0 \
---y_bais_all 0
+--x_bias_all 0 \
+--x_bias_all 0 \
+--x_bias_all 0 \
+--x_bias_all 0 \
+--x_bias_all 0 \
+--x_bias_all 0 \
+--y_bias_all 0 \
+--y_bias_all 0 \
+--y_bias_all 0 \
+--y_bias_all 0 \
+--y_bias_all 0 \
+--y_bias_all 0

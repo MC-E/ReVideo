@@ -104,6 +104,20 @@ Inference requires at least `20GB` of GPU memory for editing a `768x1344` video.
 bash configs/examples/constant_motion/head6.sh
 ```
 
+### Description of the same parameters
+```bash
+--s_h  # The abscissa of the top left corner of the editing region
+--e_h # The abscissa of the lower right corner of the editing region
+--s_w # The ordinate of the top left corner of the editing region
+--e_w # The ordinate of the lower right corner of the editing region
+--ps_h # The abscissa of the start point
+--pe_h # The abscissa of the end point
+--ps_w # The ordinate of the start point
+--pe_w # The ordinate of the end point
+--x_bias_all # Horizontal offset of reciprocating motion
+--y_bias_all # Vertical offset of reciprocating motion
+```
+
 ## Related Works
 <p>
 [1] <a href="https://pika.art/">https://pika.art/</a>
