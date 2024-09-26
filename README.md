@@ -17,6 +17,7 @@ ReVideo aims to solve the problem of local video editing. The editing target inc
 </p>
 
 ## 📰 **New Features/Updates**
+- [2024/09/25] ReVideo is accepted by NeurIPS 2024.
 - [2024/06/26] We release the code of ReVideo.
 - [2024/05/26] **Long video editing plan**: We are collaborating with [Open-Sora Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan) team to replace SVD with Sora framework, making ReVideo suitable for long video editing. Here are some preliminary results. This initial combination is still limited in quality for long videos. In the future, we will continue to cooperate and launch high-quality long video editing models.
 <table class="center">
