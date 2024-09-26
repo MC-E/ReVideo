@@ -105,7 +105,7 @@ Inference requires at least `20GB` of GPU memory for editing a `768x1344` video.
 bash configs/examples/constant_motion/head6.sh
 ```
 
-### Description of the same parameters
+### Description of input parameters
 ```bash
 --s_h  # The abscissa of the top left corner of the editing region
 --e_h # The abscissa of the lower right corner of the editing region
